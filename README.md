@@ -1,8 +1,7 @@
 ## 安装
 
-```bash
+```
     npm i --save-dev protobuf-loader
-
 ```
 
 ## 使用说明
@@ -16,7 +15,7 @@ module.exports = {
     loaders: [
       {
         test: /\.proto$/,
-        loader: "proto-loader"
+        loader: "protobuf-loader"
       }
     ]
   }
@@ -65,5 +64,5 @@ console.log(ret);
 如果使用编译为json时 需要依赖 protobuf 包会变大，当使用pb包很多时 json会推荐。
 
 ##感谢
-这个包是借鉴了 [proto-loader](https://github.com/brianchirls/proto-loader) 特别感谢
-感谢了[Daniel Wirtz] (https://github.com/dcodeIO) 的解惑
+* 这个包是借鉴了 [proto-loader](https://github.com/brianchirls/proto-loader) 特别感谢
+* 感谢[Daniel Wirtz](https://github.com/dcodeIO) 的解惑

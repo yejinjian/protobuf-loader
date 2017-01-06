@@ -1,6 +1,6 @@
 {
   "name": "protobuf-loader",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "Protocol Buffer loader module for webpack",
   "main": "index.js",
   "keywords": [
@@ -9,11 +9,6 @@
     "proto",
     "protocol",
     "buffer"
-  ],
-  "files": [
-    "dist",
-    "src",
-    "lib"
   ],
   "scripts": {
     "test": "webpack --config  example/webpack.config.js"
